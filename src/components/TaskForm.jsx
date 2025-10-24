@@ -124,7 +124,7 @@ const TaskForm = ({ onTaskAdded, onCancel }) => {
         <div className="form-group">
           <label htmlFor="dueAt">Due Date</label>
           <input
-            type="datetime-local"
+            type="date"
             id="dueAt"
             name="dueAt"
             value={formData.dueAt}
